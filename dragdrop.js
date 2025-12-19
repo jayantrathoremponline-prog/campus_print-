@@ -3,8 +3,8 @@
 
 // --- CONFIGURATION ---
 // Replace this with your Apps Script web app URL if needed
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwsuQRjd_EkMfp21yz8mD4DU5F_hKVwAvB6LyDC1ww8XpVwXwgOQ8tc0zMPa92PPYJe/exec";
-
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyf3H9kGgd8XAloA6h60FtdeNA4U5nVp37e5gjbyCwCgABo6KT_7guMyVKDYyZCVg-eLQ/exec";
+// https://script.google.com/macros/s/AKfycbyf3H9kGgd8XAloA6h60FtdeNA4U5nVp37e5gjbyCwCgABo6KT_7guMyVKDYyZCVg-eLQ/exec
 const dropZone = document.getElementById('drop-zone');
 const fileInput = document.getElementById('file-input');
 const dropMessage = document.getElementById('drop-message');
@@ -201,3 +201,4 @@ function uploadFile() {
 
 // attach to window so inline onclick can call it
 window.uploadFile = uploadFile;
+
